@@ -12,12 +12,12 @@ const HomeSection = () => {
           className="w-full h-auto mb-4 rounded-lg"
         />
         <div className="flex">
-          <h2 className="text-2xl font-bold mb-2">The bright future of web 3.0</h2>
+          <h2 className="text-2xl font-bold h-6 mb-2">The bright <br></br>future of web 3.0</h2>
           <p className="ml-4 mb-2">
             We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
           </p>
         </div>
-        <button className="bg-gray-800 text-white py-2 px-4 rounded hover:bg-grey-10">
+        <button className="bg-gray-800 text-white py-2 px-4 rounded inline-block  ml-14 hover:bg-gray">
           Read more
         </button>
       </div>
