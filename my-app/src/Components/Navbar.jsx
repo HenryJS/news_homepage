@@ -3,11 +3,11 @@ import  { ReactComponent as Logo }  from '../Assets/logo.svg';
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between p-6 bg-white text-black shadow-md">
+    <nav className="flex items-center justify-between p-4 bg-white text-black shadow-md">
     <div className="flex items-center">
     
-        <Logo className="w-8 h-8 mr-2" /> 
-        <span className="text-lg font-bold"></span>
+        <Logo className="w-13 h-10 mr-1" /> 
+        
       </div>
       <div className="flex space-x-4">
         <NavLink to="/" label="Home" />
